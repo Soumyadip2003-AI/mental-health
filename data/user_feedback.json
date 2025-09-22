@@ -1,0 +1,356 @@
+{
+  "corrections": [
+    {
+      "text": "I'm feeling better after therapy",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 0.9999920062999184,
+      "timestamp": "2025-09-22T21:22:03.248241",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 1,
+        "text_length": 32,
+        "word_count": 5,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm going to end my life",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:22:03.248418",
+      "features": {
+        "crisis_keyword_count": 1,
+        "help_keyword_count": 0,
+        "text_length": 24,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I have a plan to commit suicide",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 0.9998378411102006,
+      "timestamp": "2025-09-22T21:22:03.249015",
+      "features": {
+        "crisis_keyword_count": 2,
+        "help_keyword_count": 0,
+        "text_length": 31,
+        "word_count": 7,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm having a bad day but I'll be okay",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:22:03.249197",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 0,
+        "text_length": 37,
+        "word_count": 9,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm going to jump off the bridge",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 0.9999999999998184,
+      "timestamp": "2025-09-22T21:22:03.249380",
+      "features": {
+        "crisis_keyword_count": 2,
+        "help_keyword_count": 0,
+        "text_length": 32,
+        "word_count": 7,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm working on my mental health",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:22:03.249573",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 0,
+        "text_length": 31,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I want to kill myself tonight",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 0.9999999999252486,
+      "timestamp": "2025-09-22T21:24:45.346977",
+      "features": {
+        "crisis_keyword_count": 1,
+        "help_keyword_count": 0,
+        "text_length": 29,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 1,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm feeling better after therapy",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:24:45.347601",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 1,
+        "text_length": 32,
+        "word_count": 5,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm going to end my life",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 0.999999999992942,
+      "timestamp": "2025-09-22T21:24:45.347929",
+      "features": {
+        "crisis_keyword_count": 1,
+        "help_keyword_count": 0,
+        "text_length": 24,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm struggling but I'm getting help",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:24:45.348238",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 1,
+        "text_length": 35,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I have a plan to commit suicide",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:24:45.348525",
+      "features": {
+        "crisis_keyword_count": 2,
+        "help_keyword_count": 0,
+        "text_length": 31,
+        "word_count": 7,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm having a bad day but I'll be okay",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:24:45.348862",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 0,
+        "text_length": 37,
+        "word_count": 9,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm going to jump off the bridge",
+      "predicted_label": 0,
+      "correct_label": 1,
+      "confidence": 1.0,
+      "timestamp": "2025-09-22T21:24:45.349242",
+      "features": {
+        "crisis_keyword_count": 2,
+        "help_keyword_count": 0,
+        "text_length": 32,
+        "word_count": 7,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm working on my mental health",
+      "predicted_label": 1,
+      "correct_label": 0,
+      "confidence": 0.9999964793135736,
+      "timestamp": "2025-09-22T21:24:45.349742",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 0,
+        "text_length": 31,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    }
+  ],
+  "confirmations": [
+    {
+      "text": "I want to kill myself tonight",
+      "predicted_label": 1,
+      "confidence": 0.9757431300314514,
+      "timestamp": "2025-09-22T21:22:03.247681",
+      "features": {
+        "crisis_keyword_count": 1,
+        "help_keyword_count": 0,
+        "text_length": 29,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 1,
+        "negation_count": 0
+      }
+    },
+    {
+      "text": "I'm struggling but I'm getting help",
+      "predicted_label": 0,
+      "confidence": 0.9999979483246307,
+      "timestamp": "2025-09-22T21:22:03.248779",
+      "features": {
+        "crisis_keyword_count": 0,
+        "help_keyword_count": 1,
+        "text_length": 35,
+        "word_count": 6,
+        "intensity_count": 0,
+        "temporal_count": 0,
+        "negation_count": 0
+      }
+    }
+  ],
+  "model_weights": {
+    "crisis_keyword_count": 1.1099999999999999,
+    "help_keyword_count": -0.30000000000000004,
+    "text_length": -2.9099999999999993,
+    "word_count": 0.060000000000000164,
+    "intensity_count": 0.0,
+    "temporal_count": 0.11000000000000001,
+    "negation_count": 0.0
+  },
+  "feature_importance": {},
+  "learning_history": [
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.248251",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.248425",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.249023",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.249204",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.249387",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:22:03.249579",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.347110",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.347610",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.347938",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.348246",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.348531",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.348870",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.349250",
+      "error": 1,
+      "features_updated": 7
+    },
+    {
+      "type": "correction",
+      "timestamp": "2025-09-22T21:24:45.349750",
+      "error": 1,
+      "features_updated": 7
+    }
+  ]
+}

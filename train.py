@@ -983,56 +983,6 @@ class TextPreprocessor:
             embeddings = outputs.last_hidden_state[:, 0, :].numpy()
         
         return embeddings[0]  # Return as 1D array
-def __init__(self, use_bert=False, use_spacy=False):
-    """
-    Initialize the text preprocessor
-    """
-    self.stop_words = set(stopwords.words('english'))
-    self.use_bert = use_bert and bert_available
-    self.use_spacy = use_spacy and spacy_available
-    
-    # Initialize tokenizers if available
-    if self.use_bert:
-        self.bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.bert_model = BertModel.from_pretrained('bert-base-uncased')
-        self.bert_model.eval()  # Set model to evaluation mode
-    
-    if self.use_spacy:
-        self.nlp = nlp
-
-def transform(self, texts, method='basic', return_embeddings=False):
-    """
-    Transform a list of texts
-    
-    Parameters:
-    -----------
-    texts : list
-        List of text strings
-    method : str
-        Preprocessing method: 'basic' or 'spacy'
-    return_embeddings : bool
-        Whether to return BERT embeddings
-    
-    Returns:
-    --------
-    processed_texts : list
-        List of preprocessed texts
-    embeddings : ndarray (optional)
-        BERT embeddings if return_embeddings is True
-    """
-    # Convert all texts to Python str to handle numpy.str_
-    texts = [str(text) for text in texts]
-    
-    if method == 'spacy' and self.use_spacy:
-        processed_texts = [self.spacy_preprocess(text) for text in tqdm(texts, desc="SpaCy Processing")]
-    else:
-        processed_texts = [self.basic_preprocess(text) for text in tqdm(texts, desc="Basic Processing")]
-    
-    if return_embeddings and self.use_bert:
-        embeddings = np.array([self.get_bert_embeddings(text) for text in tqdm(texts, desc="BERT Embeddings")])
-        return processed_texts, embeddings
-    
-    return processed_texts
 
 # Model classes
 class TextClassifier:
